@@ -1,5 +1,5 @@
 import { Alert, Box, Container, Stack, Typography } from "@mui/material";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 
 import ProductGrid from "../../components/product/ProductGrid";
@@ -18,6 +18,7 @@ import { LABELS } from "../../constants/labels";
  */
 function ProductListingPage() {
   const { t } = useTranslation();
+  const loadMoreTimeoutRef = useRef(null);
   const [isMobile, setIsMobile] = useState(() => {
     if (typeof window === "undefined") {
       return false;
@@ -25,6 +26,7 @@ function ProductListingPage() {
 
     return window.matchMedia("(max-width: 599.95px)").matches;
   });
+  const [isLoadingMore, setIsLoadingMore] = useState(false);
 
   useEffect(() => {
     const mediaQuery = window.matchMedia("(max-width: 599.95px)");
@@ -62,6 +64,27 @@ function ProductListingPage() {
     status,
     totalPages
   } = useProductListing();
+
+  useEffect(() => {
+    return () => {
+      if (loadMoreTimeoutRef.current) {
+        clearTimeout(loadMoreTimeoutRef.current);
+      }
+    };
+  }, []);
+
+  const handleLoadMore = useCallback(() => {
+    if (isLoadingMore || currentPage >= totalPages) {
+      return;
+    }
+
+    setIsLoadingMore(true);
+    loadMoreTimeoutRef.current = setTimeout(() => {
+      handlePageChange(currentPage + 1);
+      setIsLoadingMore(false);
+      loadMoreTimeoutRef.current = null;
+    }, 220);
+  }, [currentPage, handlePageChange, isLoadingMore, totalPages]);
 
   return (
     <Box sx={{ pb: 6, pt: 4, minHeight: "100vh", bgcolor: "grey.50" }}>
@@ -149,7 +172,8 @@ function ProductListingPage() {
               <InfiniteScrollTrigger
                 hasMore={currentPage < totalPages}
                 isActive
-                onLoadMore={() => handlePageChange(currentPage + 1)}
+                isLoadingMore={isLoadingMore}
+                onLoadMore={handleLoadMore}
               />
             ) : (
               <PaginationControls

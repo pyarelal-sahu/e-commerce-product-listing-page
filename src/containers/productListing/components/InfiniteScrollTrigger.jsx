@@ -1,8 +1,8 @@
-import { Box, Skeleton } from "@mui/material";
+import { Box } from "@mui/material";
 import PropTypes from "prop-types";
 import { useEffect, useRef } from "react";
 
-import { LABELS } from "../../../constants/labels";
+import ProductCardSkeleton from "../../../components/product/ProductCardSkeleton";
 
 /**
  * Sentinel component that requests more items when it enters the viewport.
@@ -10,14 +10,15 @@ import { LABELS } from "../../../constants/labels";
  * @param {object} props Component props.
  * @param {boolean} props.hasMore Whether there are more items to load.
  * @param {boolean} props.isActive Whether the infinite scroll is active.
+ * @param {boolean} props.isLoadingMore Whether the next page is currently loading.
  * @param {function} props.onLoadMore Callback to load more items.
  * @returns {JSX.Element|null} Rendered infinite scroll trigger.
  */
-function InfiniteScrollTrigger({ hasMore, isActive, onLoadMore }) {
+function InfiniteScrollTrigger({ hasMore, isActive, isLoadingMore, onLoadMore }) {
   const sentinelRef = useRef(null);
 
   useEffect(() => {
-    if (!isActive || !hasMore || !sentinelRef.current) {
+    if (!isActive || !hasMore || isLoadingMore || !sentinelRef.current) {
       return;
     }
 
@@ -39,21 +40,34 @@ function InfiniteScrollTrigger({ hasMore, isActive, onLoadMore }) {
     return () => {
       observer.disconnect();
     };
-  }, [hasMore, isActive, onLoadMore]);
+  }, [hasMore, isActive, isLoadingMore, onLoadMore]);
 
   if (!isActive || !hasMore) {
     return null;
   }
 
   return (
-    <Box ref={sentinelRef} sx={{ position: "relative", width: "100%", pt: "100%", overflow: "hidden" }}>
-      <Skeleton
-        animation="wave"
-        height="100%"
-        sx={{ position: "absolute", top: 0, left: 0 }}
-        variant="rectangular"
-        width="100%"
-      />
+    <Box sx={{ mt: 1.5 }}>
+      {isLoadingMore ? (
+        <Box
+          sx={{
+            display: "grid",
+            gap: 3,
+            gridTemplateColumns: {
+              xs: "1fr",
+              sm: "repeat(2, minmax(0, 1fr))",
+              md: "repeat(3, minmax(0, 1fr))",
+              lg: "repeat(4, minmax(0, 1fr))"
+            }
+          }}
+        >
+          {Array.from({ length: 2 }).map((_, index) => (
+            <ProductCardSkeleton key={index} />
+          ))}
+        </Box>
+      ) : null}
+
+      <Box ref={sentinelRef} sx={{ height: 1, width: "100%" }} />
     </Box>
   );
 }
@@ -61,6 +75,7 @@ function InfiniteScrollTrigger({ hasMore, isActive, onLoadMore }) {
 InfiniteScrollTrigger.propTypes = {
   hasMore: PropTypes.bool.isRequired,
   isActive: PropTypes.bool.isRequired,
+  isLoadingMore: PropTypes.bool.isRequired,
   onLoadMore: PropTypes.func.isRequired
 };
 
