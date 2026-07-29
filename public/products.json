@@ -1,0 +1,1602 @@
+[
+  {
+    "id": 1,
+    "name": "AeroNoise Wireless Headphones",
+    "price": 129.99,
+    "category": "Electronics",
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 2,
+    "name": "PulseFit Smart Watch",
+    "price": 179.5,
+    "category": "Electronics",
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 3,
+    "name": "CloudStep Running Shoes",
+    "price": 94,
+    "category": "Sports",
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 4,
+    "name": "Luna Knit Sweater",
+    "price": 68,
+    "category": "Fashion",
+    "rating": 4,
+    "image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 5,
+    "name": "Nordic Ceramic Mug Set",
+    "price": 36.99,
+    "category": "Home",
+    "rating": 3.9,
+    "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcf93a?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 6,
+    "name": "GlowSkin Vitamin Serum",
+    "price": 42,
+    "category": "Beauty",
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 7,
+    "name": "Cascade Travel Backpack",
+    "price": 74.25,
+    "category": "Accessories",
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 8,
+    "name": "Oakline Wooden Desk Lamp",
+    "price": 58.4,
+    "category": "Home",
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 9,
+    "name": "TerraStone Yoga Mat",
+    "price": 39.75,
+    "category": "Sports",
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1592432678016-e910b452f9a2?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 10,
+    "name": "SilkMist Hair Dryer",
+    "price": 89.99,
+    "category": "Beauty",
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 11,
+    "name": "Vista Polarized Sunglasses",
+    "price": 49.2,
+    "category": "Accessories",
+    "rating": 3.8,
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 12,
+    "name": "BrewMaster French Press",
+    "price": 31,
+    "category": "Home",
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 13,
+    "name": "Riverline Denim Jacket",
+    "price": 112.6,
+    "category": "Fashion",
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1495105787522-5334e3ffa0ef?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 14,
+    "name": "PixelPad Wireless Charger",
+    "price": 27.9,
+    "category": "Electronics",
+    "rating": 4,
+    "image": "https://images.unsplash.com/photo-1585338447937-7082f8fc763d?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 15,
+    "name": "Summit Steel Water Bottle",
+    "price": 22.5,
+    "category": "Sports",
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1523362628745-0c100150b504?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 16,
+    "name": "Velvet Bloom Lip Tint",
+    "price": 19.95,
+    "category": "Beauty",
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 17,
+    "name": "Luxe Glow Serum",
+    "price": 135.6,
+    "category": "Beauty",
+    "rating": 3.1,
+    "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 18,
+    "name": "Prime Daily Backpack",
+    "price": 142.95,
+    "category": "Accessories",
+    "rating": 3.2,
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 19,
+    "name": "Echo Portable Speaker",
+    "price": 150.3,
+    "category": "Electronics",
+    "rating": 3.3,
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 20,
+    "name": "Zen Trail Sneakers",
+    "price": 157.65,
+    "category": "Sports",
+    "rating": 3.5,
+    "image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 21,
+    "name": "Swift Classic Watch",
+    "price": 165,
+    "category": "Fashion",
+    "rating": 3.6,
+    "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcf93a?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 22,
+    "name": "Terra Cozy Organizer",
+    "price": 172.35,
+    "category": "Home",
+    "rating": 3.7,
+    "image": "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 23,
+    "name": "Vista Pure Mat",
+    "price": 179.7,
+    "category": "Beauty",
+    "rating": 3.9,
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 24,
+    "name": "Aura Essential Mug",
+    "price": 187.05,
+    "category": "Accessories",
+    "rating": 4,
+    "image": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 25,
+    "name": "Aero Smart Headset",
+    "price": 194.4,
+    "category": "Electronics",
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1592432678016-e910b452f9a2?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 26,
+    "name": "Nova Pro Bottle",
+    "price": 201.75,
+    "category": "Sports",
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 27,
+    "name": "Urban Street Jacket",
+    "price": 24.1,
+    "category": "Fashion",
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 28,
+    "name": "Summit Minimal Lamp",
+    "price": 31.45,
+    "category": "Home",
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 29,
+    "name": "Luxe Glow Serum",
+    "price": 38.8,
+    "category": "Beauty",
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1495105787522-5334e3ffa0ef?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 30,
+    "name": "Prime Daily Backpack",
+    "price": 46.15,
+    "category": "Accessories",
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1585338447937-7082f8fc763d?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 31,
+    "name": "Echo Portable Speaker",
+    "price": 53.5,
+    "category": "Electronics",
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1523362628745-0c100150b504?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 32,
+    "name": "Zen Trail Sneakers",
+    "price": 60.85,
+    "category": "Sports",
+    "rating": 3,
+    "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 33,
+    "name": "Swift Classic Watch",
+    "price": 68.2,
+    "category": "Fashion",
+    "rating": 3.2,
+    "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 34,
+    "name": "Terra Cozy Organizer",
+    "price": 75.55,
+    "category": "Home",
+    "rating": 3.3,
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 35,
+    "name": "Vista Pure Mat",
+    "price": 82.9,
+    "category": "Beauty",
+    "rating": 3.4,
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 36,
+    "name": "Aura Essential Mug",
+    "price": 90.25,
+    "category": "Accessories",
+    "rating": 3.5,
+    "image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 37,
+    "name": "Aero Smart Headset",
+    "price": 97.6,
+    "category": "Electronics",
+    "rating": 3.7,
+    "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcf93a?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 38,
+    "name": "Nova Pro Bottle",
+    "price": 104.95,
+    "category": "Sports",
+    "rating": 3.8,
+    "image": "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 39,
+    "name": "Urban Street Jacket",
+    "price": 112.3,
+    "category": "Fashion",
+    "rating": 3.9,
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 40,
+    "name": "Summit Minimal Lamp",
+    "price": 119.65,
+    "category": "Home",
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 41,
+    "name": "Luxe Glow Serum",
+    "price": 127,
+    "category": "Beauty",
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1592432678016-e910b452f9a2?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 42,
+    "name": "Prime Daily Backpack",
+    "price": 134.35,
+    "category": "Accessories",
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 43,
+    "name": "Echo Portable Speaker",
+    "price": 141.7,
+    "category": "Electronics",
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 44,
+    "name": "Zen Trail Sneakers",
+    "price": 149.05,
+    "category": "Sports",
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 45,
+    "name": "Swift Classic Watch",
+    "price": 156.4,
+    "category": "Fashion",
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1495105787522-5334e3ffa0ef?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 46,
+    "name": "Terra Cozy Organizer",
+    "price": 163.75,
+    "category": "Home",
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1585338447937-7082f8fc763d?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 47,
+    "name": "Vista Pure Mat",
+    "price": 171.1,
+    "category": "Beauty",
+    "rating": 5,
+    "image": "https://images.unsplash.com/photo-1523362628745-0c100150b504?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 48,
+    "name": "Aura Essential Mug",
+    "price": 178.45,
+    "category": "Accessories",
+    "rating": 3.1,
+    "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 49,
+    "name": "Aero Smart Headset",
+    "price": 185.8,
+    "category": "Electronics",
+    "rating": 3.2,
+    "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 50,
+    "name": "Nova Pro Bottle",
+    "price": 193.15,
+    "category": "Sports",
+    "rating": 3.4,
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 51,
+    "name": "Urban Street Jacket",
+    "price": 200.5,
+    "category": "Fashion",
+    "rating": 3.5,
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 52,
+    "name": "Summit Minimal Lamp",
+    "price": 22.85,
+    "category": "Home",
+    "rating": 3.6,
+    "image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 53,
+    "name": "Luxe Glow Serum",
+    "price": 30.2,
+    "category": "Beauty",
+    "rating": 3.8,
+    "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcf93a?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 54,
+    "name": "Prime Daily Backpack",
+    "price": 37.55,
+    "category": "Accessories",
+    "rating": 3.9,
+    "image": "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 55,
+    "name": "Echo Portable Speaker",
+    "price": 44.9,
+    "category": "Electronics",
+    "rating": 4,
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 56,
+    "name": "Zen Trail Sneakers",
+    "price": 52.25,
+    "category": "Sports",
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 57,
+    "name": "Swift Classic Watch",
+    "price": 59.6,
+    "category": "Fashion",
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1592432678016-e910b452f9a2?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 58,
+    "name": "Terra Cozy Organizer",
+    "price": 66.95,
+    "category": "Home",
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 59,
+    "name": "Vista Pure Mat",
+    "price": 74.3,
+    "category": "Beauty",
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 60,
+    "name": "Aura Essential Mug",
+    "price": 81.65,
+    "category": "Accessories",
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 61,
+    "name": "Aero Smart Headset",
+    "price": 89,
+    "category": "Electronics",
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1495105787522-5334e3ffa0ef?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 62,
+    "name": "Nova Pro Bottle",
+    "price": 96.35,
+    "category": "Sports",
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1585338447937-7082f8fc763d?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 63,
+    "name": "Urban Street Jacket",
+    "price": 103.7,
+    "category": "Fashion",
+    "rating": 3.1,
+    "image": "https://images.unsplash.com/photo-1523362628745-0c100150b504?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 64,
+    "name": "Summit Minimal Lamp",
+    "price": 111.05,
+    "category": "Home",
+    "rating": 3.2,
+    "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 65,
+    "name": "Luxe Glow Serum",
+    "price": 118.4,
+    "category": "Beauty",
+    "rating": 3.3,
+    "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 66,
+    "name": "Prime Daily Backpack",
+    "price": 125.75,
+    "category": "Accessories",
+    "rating": 3.5,
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 67,
+    "name": "Echo Portable Speaker",
+    "price": 133.1,
+    "category": "Electronics",
+    "rating": 3.6,
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 68,
+    "name": "Zen Trail Sneakers",
+    "price": 140.45,
+    "category": "Sports",
+    "rating": 3.7,
+    "image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 69,
+    "name": "Swift Classic Watch",
+    "price": 147.8,
+    "category": "Fashion",
+    "rating": 3.8,
+    "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcf93a?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 70,
+    "name": "Terra Cozy Organizer",
+    "price": 155.15,
+    "category": "Home",
+    "rating": 4,
+    "image": "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 71,
+    "name": "Vista Pure Mat",
+    "price": 162.5,
+    "category": "Beauty",
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 72,
+    "name": "Aura Essential Mug",
+    "price": 169.85,
+    "category": "Accessories",
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 73,
+    "name": "Aero Smart Headset",
+    "price": 177.2,
+    "category": "Electronics",
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1592432678016-e910b452f9a2?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 74,
+    "name": "Nova Pro Bottle",
+    "price": 184.55,
+    "category": "Sports",
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 75,
+    "name": "Urban Street Jacket",
+    "price": 191.9,
+    "category": "Fashion",
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 76,
+    "name": "Summit Minimal Lamp",
+    "price": 199.25,
+    "category": "Home",
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 77,
+    "name": "Luxe Glow Serum",
+    "price": 21.6,
+    "category": "Beauty",
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1495105787522-5334e3ffa0ef?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 78,
+    "name": "Prime Daily Backpack",
+    "price": 28.95,
+    "category": "Accessories",
+    "rating": 3,
+    "image": "https://images.unsplash.com/photo-1585338447937-7082f8fc763d?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 79,
+    "name": "Echo Portable Speaker",
+    "price": 36.3,
+    "category": "Electronics",
+    "rating": 3.1,
+    "image": "https://images.unsplash.com/photo-1523362628745-0c100150b504?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 80,
+    "name": "Zen Trail Sneakers",
+    "price": 43.65,
+    "category": "Sports",
+    "rating": 3.3,
+    "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 81,
+    "name": "Swift Classic Watch",
+    "price": 51,
+    "category": "Fashion",
+    "rating": 3.4,
+    "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 82,
+    "name": "Terra Cozy Organizer",
+    "price": 58.35,
+    "category": "Home",
+    "rating": 3.5,
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 83,
+    "name": "Vista Pure Mat",
+    "price": 65.7,
+    "category": "Beauty",
+    "rating": 3.7,
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 84,
+    "name": "Aura Essential Mug",
+    "price": 73.05,
+    "category": "Accessories",
+    "rating": 3.8,
+    "image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 85,
+    "name": "Aero Smart Headset",
+    "price": 80.4,
+    "category": "Electronics",
+    "rating": 3.9,
+    "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcf93a?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 86,
+    "name": "Nova Pro Bottle",
+    "price": 87.75,
+    "category": "Sports",
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 87,
+    "name": "Urban Street Jacket",
+    "price": 95.1,
+    "category": "Fashion",
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 88,
+    "name": "Summit Minimal Lamp",
+    "price": 102.45,
+    "category": "Home",
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 89,
+    "name": "Luxe Glow Serum",
+    "price": 109.8,
+    "category": "Beauty",
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1592432678016-e910b452f9a2?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 90,
+    "name": "Prime Daily Backpack",
+    "price": 117.15,
+    "category": "Accessories",
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 91,
+    "name": "Echo Portable Speaker",
+    "price": 124.5,
+    "category": "Electronics",
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 92,
+    "name": "Zen Trail Sneakers",
+    "price": 131.85,
+    "category": "Sports",
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 93,
+    "name": "Swift Classic Watch",
+    "price": 139.2,
+    "category": "Fashion",
+    "rating": 5,
+    "image": "https://images.unsplash.com/photo-1495105787522-5334e3ffa0ef?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 94,
+    "name": "Terra Cozy Organizer",
+    "price": 146.55,
+    "category": "Home",
+    "rating": 3.1,
+    "image": "https://images.unsplash.com/photo-1585338447937-7082f8fc763d?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 95,
+    "name": "Vista Pure Mat",
+    "price": 153.9,
+    "category": "Beauty",
+    "rating": 3.2,
+    "image": "https://images.unsplash.com/photo-1523362628745-0c100150b504?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 96,
+    "name": "Aura Essential Mug",
+    "price": 161.25,
+    "category": "Accessories",
+    "rating": 3.3,
+    "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 97,
+    "name": "Aero Smart Headset",
+    "price": 168.6,
+    "category": "Electronics",
+    "rating": 3.5,
+    "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 98,
+    "name": "Nova Pro Bottle",
+    "price": 175.95,
+    "category": "Sports",
+    "rating": 3.6,
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 99,
+    "name": "Urban Street Jacket",
+    "price": 183.3,
+    "category": "Fashion",
+    "rating": 3.7,
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 100,
+    "name": "Summit Minimal Lamp",
+    "price": 190.65,
+    "category": "Home",
+    "rating": 3.9,
+    "image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 101,
+    "name": "Luxe Glow Serum",
+    "price": 198,
+    "category": "Beauty",
+    "rating": 4,
+    "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcf93a?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 102,
+    "name": "Prime Daily Backpack",
+    "price": 20.35,
+    "category": "Accessories",
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 103,
+    "name": "Echo Portable Speaker",
+    "price": 27.7,
+    "category": "Electronics",
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 104,
+    "name": "Zen Trail Sneakers",
+    "price": 35.05,
+    "category": "Sports",
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 105,
+    "name": "Swift Classic Watch",
+    "price": 42.4,
+    "category": "Fashion",
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1592432678016-e910b452f9a2?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 106,
+    "name": "Terra Cozy Organizer",
+    "price": 49.75,
+    "category": "Home",
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 107,
+    "name": "Vista Pure Mat",
+    "price": 57.1,
+    "category": "Beauty",
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 108,
+    "name": "Aura Essential Mug",
+    "price": 64.45,
+    "category": "Accessories",
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 109,
+    "name": "Aero Smart Headset",
+    "price": 71.8,
+    "category": "Electronics",
+    "rating": 3,
+    "image": "https://images.unsplash.com/photo-1495105787522-5334e3ffa0ef?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 110,
+    "name": "Nova Pro Bottle",
+    "price": 79.15,
+    "category": "Sports",
+    "rating": 3.2,
+    "image": "https://images.unsplash.com/photo-1585338447937-7082f8fc763d?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 111,
+    "name": "Urban Street Jacket",
+    "price": 86.5,
+    "category": "Fashion",
+    "rating": 3.3,
+    "image": "https://images.unsplash.com/photo-1523362628745-0c100150b504?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 112,
+    "name": "Summit Minimal Lamp",
+    "price": 93.85,
+    "category": "Home",
+    "rating": 3.4,
+    "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 113,
+    "name": "Luxe Glow Serum",
+    "price": 101.2,
+    "category": "Beauty",
+    "rating": 3.6,
+    "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 114,
+    "name": "Prime Daily Backpack",
+    "price": 108.55,
+    "category": "Accessories",
+    "rating": 3.7,
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 115,
+    "name": "Echo Portable Speaker",
+    "price": 115.9,
+    "category": "Electronics",
+    "rating": 3.8,
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 116,
+    "name": "Zen Trail Sneakers",
+    "price": 123.25,
+    "category": "Sports",
+    "rating": 4,
+    "image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 117,
+    "name": "Swift Classic Watch",
+    "price": 130.6,
+    "category": "Fashion",
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcf93a?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 118,
+    "name": "Terra Cozy Organizer",
+    "price": 137.95,
+    "category": "Home",
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 119,
+    "name": "Vista Pure Mat",
+    "price": 145.3,
+    "category": "Beauty",
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 120,
+    "name": "Aura Essential Mug",
+    "price": 152.65,
+    "category": "Accessories",
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 121,
+    "name": "Aero Smart Headset",
+    "price": 160,
+    "category": "Electronics",
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1592432678016-e910b452f9a2?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 122,
+    "name": "Nova Pro Bottle",
+    "price": 167.35,
+    "category": "Sports",
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 123,
+    "name": "Urban Street Jacket",
+    "price": 174.7,
+    "category": "Fashion",
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 124,
+    "name": "Summit Minimal Lamp",
+    "price": 182.05,
+    "category": "Home",
+    "rating": 5,
+    "image": "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 125,
+    "name": "Luxe Glow Serum",
+    "price": 189.4,
+    "category": "Beauty",
+    "rating": 3.1,
+    "image": "https://images.unsplash.com/photo-1495105787522-5334e3ffa0ef?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 126,
+    "name": "Prime Daily Backpack",
+    "price": 196.75,
+    "category": "Accessories",
+    "rating": 3.3,
+    "image": "https://images.unsplash.com/photo-1585338447937-7082f8fc763d?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 127,
+    "name": "Echo Portable Speaker",
+    "price": 19.1,
+    "category": "Electronics",
+    "rating": 3.4,
+    "image": "https://images.unsplash.com/photo-1523362628745-0c100150b504?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 128,
+    "name": "Zen Trail Sneakers",
+    "price": 26.45,
+    "category": "Sports",
+    "rating": 3.5,
+    "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 129,
+    "name": "Swift Classic Watch",
+    "price": 33.8,
+    "category": "Fashion",
+    "rating": 3.6,
+    "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 130,
+    "name": "Terra Cozy Organizer",
+    "price": 41.15,
+    "category": "Home",
+    "rating": 3.8,
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 131,
+    "name": "Vista Pure Mat",
+    "price": 48.5,
+    "category": "Beauty",
+    "rating": 3.9,
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 132,
+    "name": "Aura Essential Mug",
+    "price": 55.85,
+    "category": "Accessories",
+    "rating": 4,
+    "image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 133,
+    "name": "Aero Smart Headset",
+    "price": 63.2,
+    "category": "Electronics",
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcf93a?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 134,
+    "name": "Nova Pro Bottle",
+    "price": 70.55,
+    "category": "Sports",
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 135,
+    "name": "Urban Street Jacket",
+    "price": 77.9,
+    "category": "Fashion",
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 136,
+    "name": "Summit Minimal Lamp",
+    "price": 85.25,
+    "category": "Home",
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 137,
+    "name": "Luxe Glow Serum",
+    "price": 92.6,
+    "category": "Beauty",
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1592432678016-e910b452f9a2?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 138,
+    "name": "Prime Daily Backpack",
+    "price": 99.95,
+    "category": "Accessories",
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 139,
+    "name": "Echo Portable Speaker",
+    "price": 107.3,
+    "category": "Electronics",
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 140,
+    "name": "Zen Trail Sneakers",
+    "price": 114.65,
+    "category": "Sports",
+    "rating": 3.1,
+    "image": "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 141,
+    "name": "Swift Classic Watch",
+    "price": 122,
+    "category": "Fashion",
+    "rating": 3.2,
+    "image": "https://images.unsplash.com/photo-1495105787522-5334e3ffa0ef?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 142,
+    "name": "Terra Cozy Organizer",
+    "price": 129.35,
+    "category": "Home",
+    "rating": 3.3,
+    "image": "https://images.unsplash.com/photo-1585338447937-7082f8fc763d?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 143,
+    "name": "Vista Pure Mat",
+    "price": 136.7,
+    "category": "Beauty",
+    "rating": 3.5,
+    "image": "https://images.unsplash.com/photo-1523362628745-0c100150b504?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 144,
+    "name": "Aura Essential Mug",
+    "price": 144.05,
+    "category": "Accessories",
+    "rating": 3.6,
+    "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 145,
+    "name": "Aero Smart Headset",
+    "price": 151.4,
+    "category": "Electronics",
+    "rating": 3.7,
+    "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 146,
+    "name": "Nova Pro Bottle",
+    "price": 158.75,
+    "category": "Sports",
+    "rating": 3.9,
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 147,
+    "name": "Urban Street Jacket",
+    "price": 166.1,
+    "category": "Fashion",
+    "rating": 4,
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 148,
+    "name": "Summit Minimal Lamp",
+    "price": 173.45,
+    "category": "Home",
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 149,
+    "name": "Luxe Glow Serum",
+    "price": 180.8,
+    "category": "Beauty",
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcf93a?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 150,
+    "name": "Prime Daily Backpack",
+    "price": 188.15,
+    "category": "Accessories",
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 151,
+    "name": "Echo Portable Speaker",
+    "price": 195.5,
+    "category": "Electronics",
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 152,
+    "name": "Zen Trail Sneakers",
+    "price": 202.85,
+    "category": "Sports",
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 153,
+    "name": "Swift Classic Watch",
+    "price": 25.2,
+    "category": "Fashion",
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1592432678016-e910b452f9a2?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 154,
+    "name": "Terra Cozy Organizer",
+    "price": 32.55,
+    "category": "Home",
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 155,
+    "name": "Vista Pure Mat",
+    "price": 39.9,
+    "category": "Beauty",
+    "rating": 3,
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 156,
+    "name": "Aura Essential Mug",
+    "price": 47.25,
+    "category": "Accessories",
+    "rating": 3.2,
+    "image": "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 157,
+    "name": "Aero Smart Headset",
+    "price": 54.6,
+    "category": "Electronics",
+    "rating": 3.3,
+    "image": "https://images.unsplash.com/photo-1495105787522-5334e3ffa0ef?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 158,
+    "name": "Nova Pro Bottle",
+    "price": 61.95,
+    "category": "Sports",
+    "rating": 3.4,
+    "image": "https://images.unsplash.com/photo-1585338447937-7082f8fc763d?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 159,
+    "name": "Urban Street Jacket",
+    "price": 69.3,
+    "category": "Fashion",
+    "rating": 3.5,
+    "image": "https://images.unsplash.com/photo-1523362628745-0c100150b504?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 160,
+    "name": "Summit Minimal Lamp",
+    "price": 76.65,
+    "category": "Home",
+    "rating": 3.7,
+    "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 161,
+    "name": "Luxe Glow Serum",
+    "price": 84,
+    "category": "Beauty",
+    "rating": 3.8,
+    "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 162,
+    "name": "Prime Daily Backpack",
+    "price": 91.35,
+    "category": "Accessories",
+    "rating": 3.9,
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 163,
+    "name": "Echo Portable Speaker",
+    "price": 98.7,
+    "category": "Electronics",
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 164,
+    "name": "Zen Trail Sneakers",
+    "price": 106.05,
+    "category": "Sports",
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 165,
+    "name": "Swift Classic Watch",
+    "price": 113.4,
+    "category": "Fashion",
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcf93a?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 166,
+    "name": "Terra Cozy Organizer",
+    "price": 120.75,
+    "category": "Home",
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 167,
+    "name": "Vista Pure Mat",
+    "price": 128.1,
+    "category": "Beauty",
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 168,
+    "name": "Aura Essential Mug",
+    "price": 135.45,
+    "category": "Accessories",
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 169,
+    "name": "Aero Smart Headset",
+    "price": 142.8,
+    "category": "Electronics",
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1592432678016-e910b452f9a2?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 170,
+    "name": "Nova Pro Bottle",
+    "price": 150.15,
+    "category": "Sports",
+    "rating": 5,
+    "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 171,
+    "name": "Urban Street Jacket",
+    "price": 157.5,
+    "category": "Fashion",
+    "rating": 3.1,
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 172,
+    "name": "Summit Minimal Lamp",
+    "price": 164.85,
+    "category": "Home",
+    "rating": 3.2,
+    "image": "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 173,
+    "name": "Luxe Glow Serum",
+    "price": 172.2,
+    "category": "Beauty",
+    "rating": 3.4,
+    "image": "https://images.unsplash.com/photo-1495105787522-5334e3ffa0ef?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 174,
+    "name": "Prime Daily Backpack",
+    "price": 179.55,
+    "category": "Accessories",
+    "rating": 3.5,
+    "image": "https://images.unsplash.com/photo-1585338447937-7082f8fc763d?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 175,
+    "name": "Echo Portable Speaker",
+    "price": 186.9,
+    "category": "Electronics",
+    "rating": 3.6,
+    "image": "https://images.unsplash.com/photo-1523362628745-0c100150b504?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 176,
+    "name": "Zen Trail Sneakers",
+    "price": 194.25,
+    "category": "Sports",
+    "rating": 3.8,
+    "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 177,
+    "name": "Swift Classic Watch",
+    "price": 201.6,
+    "category": "Fashion",
+    "rating": 3.9,
+    "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 178,
+    "name": "Terra Cozy Organizer",
+    "price": 23.95,
+    "category": "Home",
+    "rating": 4,
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 179,
+    "name": "Vista Pure Mat",
+    "price": 31.3,
+    "category": "Beauty",
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 180,
+    "name": "Aura Essential Mug",
+    "price": 38.65,
+    "category": "Accessories",
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 181,
+    "name": "Aero Smart Headset",
+    "price": 46,
+    "category": "Electronics",
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcf93a?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 182,
+    "name": "Nova Pro Bottle",
+    "price": 53.35,
+    "category": "Sports",
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 183,
+    "name": "Urban Street Jacket",
+    "price": 60.7,
+    "category": "Fashion",
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 184,
+    "name": "Summit Minimal Lamp",
+    "price": 68.05,
+    "category": "Home",
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 185,
+    "name": "Luxe Glow Serum",
+    "price": 75.4,
+    "category": "Beauty",
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1592432678016-e910b452f9a2?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 186,
+    "name": "Prime Daily Backpack",
+    "price": 82.75,
+    "category": "Accessories",
+    "rating": 3.1,
+    "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 187,
+    "name": "Echo Portable Speaker",
+    "price": 90.1,
+    "category": "Electronics",
+    "rating": 3.2,
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 188,
+    "name": "Zen Trail Sneakers",
+    "price": 97.45,
+    "category": "Sports",
+    "rating": 3.3,
+    "image": "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 189,
+    "name": "Swift Classic Watch",
+    "price": 104.8,
+    "category": "Fashion",
+    "rating": 3.4,
+    "image": "https://images.unsplash.com/photo-1495105787522-5334e3ffa0ef?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 190,
+    "name": "Terra Cozy Organizer",
+    "price": 112.15,
+    "category": "Home",
+    "rating": 3.6,
+    "image": "https://images.unsplash.com/photo-1585338447937-7082f8fc763d?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 191,
+    "name": "Vista Pure Mat",
+    "price": 119.5,
+    "category": "Beauty",
+    "rating": 3.7,
+    "image": "https://images.unsplash.com/photo-1523362628745-0c100150b504?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 192,
+    "name": "Aura Essential Mug",
+    "price": 126.85,
+    "category": "Accessories",
+    "rating": 3.8,
+    "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 193,
+    "name": "Aero Smart Headset",
+    "price": 134.2,
+    "category": "Electronics",
+    "rating": 4,
+    "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 194,
+    "name": "Nova Pro Bottle",
+    "price": 141.55,
+    "category": "Sports",
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 195,
+    "name": "Urban Street Jacket",
+    "price": 148.9,
+    "category": "Fashion",
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 196,
+    "name": "Summit Minimal Lamp",
+    "price": 156.25,
+    "category": "Home",
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 197,
+    "name": "Luxe Glow Serum",
+    "price": 163.6,
+    "category": "Beauty",
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcf93a?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 198,
+    "name": "Prime Daily Backpack",
+    "price": 170.95,
+    "category": "Accessories",
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 199,
+    "name": "Echo Portable Speaker",
+    "price": 178.3,
+    "category": "Electronics",
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 200,
+    "name": "Zen Trail Sneakers",
+    "price": 185.65,
+    "category": "Sports",
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=800&q=80"
+  }
+]
