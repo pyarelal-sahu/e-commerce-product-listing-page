@@ -36,12 +36,18 @@ function LazyImage({ alt, className = "", errorLabel = "Image unavailable", src 
             width: "100%",
             alignItems: "center",
             justifyContent: "center",
-            bgcolor: "grey.50",
+            bgcolor: "surface.muted",
             p: 4,
             textAlign: "center"
           }}
         >
-          <Typography color="text.secondary" variant="caption">
+          <Typography
+            variant="body2"
+            sx={{
+              color: "text.secondary",
+              fontWeight: 500
+            }}
+          >
             {errorLabel}
           </Typography>
         </Box>

@@ -21,7 +21,8 @@ const APP_PALETTES = {
       main: "#e2e8f0"
     },
     surface: {
-      main: "#ffffff"
+      main: "#ffffff",
+      muted: "#f8fafc"
     },
     text: {
       primary: "#0f172a",
@@ -49,7 +50,8 @@ const APP_PALETTES = {
       main: "#1e293b"
     },
     surface: {
-      main: "#1e293b"
+      main: "#1e293b",
+      muted: "#1f2a44"
     },
     text: {
       primary: "#f8fafc",
