@@ -1,4 +1,4 @@
-import { Button, Divider, FormControl, FormControlLabel, InputLabel, MenuItem, Select, Stack, Switch, Typography } from "@mui/material";
+import { Box, Button, Divider, FormControl, FormControlLabel, InputLabel, MenuItem, Select, Stack, Switch, Typography } from "@mui/material";
 import FavoriteBorderRoundedIcon from "@mui/icons-material/FavoriteBorderRounded";
 import PropTypes from "prop-types";
 
@@ -18,6 +18,35 @@ function FilterControlsForm({
   spacing = 1.5,
   sx
 }) {
+  const renderOptionLabel = (field, option) => {
+    const labelText = String(option.label ?? "");
+
+    if (field.id === "rating-filter" && labelText.includes("★")) {
+      const [valueLabel] = labelText.split("★");
+
+      return (
+        <Box sx={{ display: "inline-flex", alignItems: "center", gap: 0.55 }}>
+          <Typography
+            component="span"
+            sx={{
+              minWidth: "3.3ch",
+              textAlign: "left",
+              fontVariantNumeric: "tabular-nums",
+              fontFeatureSettings: '"tnum" 1'
+            }}
+          >
+            {valueLabel.trim()}
+          </Typography>
+          <Typography component="span" sx={{ lineHeight: 1 }}>
+            ★
+          </Typography>
+        </Box>
+      );
+    }
+
+    return option.label;
+  };
+
   const renderField = (field) => {
     if (field.type === "switch") {
       return (
@@ -83,8 +112,12 @@ function FilterControlsForm({
           sx={field.selectSx}
         >
           {field.options.map((option) => (
-            <MenuItem key={String(option.value)} value={option.value}>
-              {option.label}
+            <MenuItem
+              key={String(option.value)}
+              value={option.value}
+              sx={field.id === "rating-filter" ? { fontVariantNumeric: "tabular-nums", fontFeatureSettings: '"tnum" 1' } : undefined}
+            >
+              {renderOptionLabel(field, option)}
             </MenuItem>
           ))}
         </Select>

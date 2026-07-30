@@ -89,6 +89,27 @@ function ProductCard({ animationIndex = 0, isFavorite, onToggleFavorite, product
             src={product.image}
           />
         </Box>
+
+        <Chip
+          label={product.category}
+          size="small"
+          sx={{
+            position: "absolute",
+            top: 8,
+            left: 8,
+            height: 22,
+            borderRadius: 1.2,
+            bgcolor: "rgba(255,255,255,0.92)",
+            color: "text.secondary",
+            fontWeight: 700,
+            fontSize: "0.62rem",
+            letterSpacing: "0.05em",
+            textTransform: "uppercase",
+            "& .MuiChip-label": {
+              px: 1
+            }
+          }}
+        />
         
         <IconButton
           onClick={(e) => {
@@ -116,40 +137,31 @@ function ProductCard({ animationIndex = 0, isFavorite, onToggleFavorite, product
       </Box>
 
       <CardContent sx={{ p: { xs: 1.5, sm: 2 }, flexGrow: 1, display: "flex", flexDirection: "column" }}>
-        <Stack 
-          direction="row" 
-          mb={0.75}
-          sx={{ 
-            justifyContent: "space-between", 
-            alignItems: "center" 
-          }}
-        >
-          <Typography variant="caption" sx={{ fontWeight: 600, color: "text.disabled", textTransform: "uppercase", fontSize: { xs: "0.65rem", sm: "0.75rem" } }}>
-            {product.category}
+        <Stack direction="row" spacing={1} sx={{ alignItems: "flex-start", justifyContent: "space-between", mb: 0.9 }}>
+          <Typography
+            variant="subtitle1"
+            sx={{
+              fontWeight: 600,
+              display: "-webkit-box",
+              WebkitLineClamp: 2,
+              WebkitBoxOrient: "vertical",
+              overflow: "hidden",
+              lineHeight: 1.25,
+              fontSize: { xs: "0.95rem", sm: "1rem" },
+              pr: 0.5,
+              flex: 1
+            }}
+          >
+            {product.name}
           </Typography>
-          <Stack direction="row" spacing={0.5} sx={{ alignItems: "center" }}>
+
+          <Stack direction="row" spacing={0.45} sx={{ alignItems: "center", flexShrink: 0, mt: 0.1 }}>
             <StarRoundedIcon sx={{ color: "warning.main", fontSize: 16 }} />
             <Typography variant="caption" fontWeight={700}>
               {product.rating.toFixed(1)}
             </Typography>
           </Stack>
         </Stack>
-
-        <Typography
-          variant="subtitle1"
-          sx={{
-            fontWeight: 600,
-            mb: 0.75,
-            display: "-webkit-box",
-            WebkitLineClamp: 2,
-            WebkitBoxOrient: "vertical",
-            overflow: "hidden",
-            lineHeight: 1.25,
-            fontSize: { xs: "0.95rem", sm: "1rem" }
-          }}
-        >
-          {product.name}
-        </Typography>
 
         <Typography variant="h6" color="primary.main" sx={{ mt: "auto", fontWeight: 700, fontSize: { xs: "1.1rem", sm: "1.25rem" } }}>
           ${product.price.toFixed(2)}
