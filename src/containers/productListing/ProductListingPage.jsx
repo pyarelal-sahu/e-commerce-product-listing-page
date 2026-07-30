@@ -81,6 +81,10 @@ function ProductListingPage({ isDarkMode, onToggleTheme }) {
     };
   }, []);
 
+  const mobileVisibleCount = currentPage * itemsPerPage;
+  const mobileRemainingCount = Math.max(0, filteredProducts.length - mobileVisibleCount);
+  const mobileLoadingSkeletonCount = Math.min(itemsPerPage, Math.max(4, mobileRemainingCount));
+
   const handleLoadMore = useCallback(() => {
     if (isLoadingMore || currentPage >= totalPages) {
       return;
@@ -89,10 +93,39 @@ function ProductListingPage({ isDarkMode, onToggleTheme }) {
     setIsLoadingMore(true);
     loadMoreTimeoutRef.current = setTimeout(() => {
       handlePageChange(currentPage + 1);
-      setIsLoadingMore(false);
-      loadMoreTimeoutRef.current = null;
-    }, 220);
+      loadMoreTimeoutRef.current = setTimeout(() => {
+        setIsLoadingMore(false);
+        loadMoreTimeoutRef.current = null;
+      }, 300);
+    }, 500);
   }, [currentPage, handlePageChange, isLoadingMore, totalPages]);
+
+  useEffect(() => {
+    if (!isMobile || currentPage >= totalPages) {
+      return undefined;
+    }
+
+    const triggerThreshold = 900;
+
+    const handleScroll = () => {
+      const scrollElement = document.documentElement;
+      const distanceToBottom = scrollElement.scrollHeight - (window.innerHeight + window.scrollY);
+
+      if (distanceToBottom <= triggerThreshold) {
+        handleLoadMore();
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    handleScroll();
+
+    const pollId = window.setInterval(handleScroll, 250);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      window.clearInterval(pollId);
+    };
+  }, [currentPage, handleLoadMore, isMobile, totalPages]);
 
   return (
     <Box sx={{ pb: 6, minHeight: "100vh", bgcolor: "background.default" }}>
@@ -133,7 +166,7 @@ function ProductListingPage({ isDarkMode, onToggleTheme }) {
                 <Switch
                   checked={isDarkMode}
                   onChange={onToggleTheme}
-                  inputProps={{ "aria-label": t(LABELS.TOGGLE_THEME) }}
+                  slotProps={{ input: { "aria-label": t(LABELS.TOGGLE_THEME) } }}
                   size="small"
                   icon={
                     <Box
@@ -273,8 +306,10 @@ function ProductListingPage({ isDarkMode, onToggleTheme }) {
             {isMobile ? (
               <ProductGrid
                 favorites={favorites}
+                isLoadingMore={isLoadingMore}
+                loadingSkeletonCount={mobileLoadingSkeletonCount}
                 onToggleFavorite={handleToggleFavorite}
-                products={filteredProducts.slice(0, currentPage * itemsPerPage)}
+                products={filteredProducts.slice(0, mobileVisibleCount)}
               />
             ) : (
             <ProductGrid

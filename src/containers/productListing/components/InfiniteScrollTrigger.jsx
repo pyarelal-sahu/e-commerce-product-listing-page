@@ -2,8 +2,6 @@ import { Box } from "@mui/material";
 import PropTypes from "prop-types";
 import { useEffect, useRef } from "react";
 
-import ProductCardSkeleton from "../../../components/product/ProductCardSkeleton";
-
 /**
  * Sentinel component that requests more items when it enters the viewport.
  *
@@ -31,7 +29,7 @@ function InfiniteScrollTrigger({ hasMore, isActive, isLoadingMore, onLoadMore })
         }
       },
       {
-        rootMargin: "160px 0px"
+        rootMargin: "800px 0px"
       }
     );
 
@@ -48,25 +46,6 @@ function InfiniteScrollTrigger({ hasMore, isActive, isLoadingMore, onLoadMore })
 
   return (
     <Box sx={{ mt: 1.5 }}>
-      {isLoadingMore ? (
-        <Box
-          sx={{
-            display: "grid",
-            gap: 3,
-            gridTemplateColumns: {
-              xs: "1fr",
-              sm: "repeat(2, minmax(0, 1fr))",
-              md: "repeat(3, minmax(0, 1fr))",
-              lg: "repeat(4, minmax(0, 1fr))"
-            }
-          }}
-        >
-          {Array.from({ length: 2 }).map((_, index) => (
-            <ProductCardSkeleton key={index} />
-          ))}
-        </Box>
-      ) : null}
-
       <Box ref={sentinelRef} sx={{ height: 1, width: "100%" }} />
     </Box>
   );
