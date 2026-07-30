@@ -1,4 +1,5 @@
-import { Divider, FormControl, FormControlLabel, InputLabel, MenuItem, Select, Stack, Switch, Typography } from "@mui/material";
+import { Button, Divider, FormControl, FormControlLabel, InputLabel, MenuItem, Select, Stack, Switch, Typography } from "@mui/material";
+import FavoriteBorderRoundedIcon from "@mui/icons-material/FavoriteBorderRounded";
 import PropTypes from "prop-types";
 
 /**
@@ -52,6 +53,25 @@ function FilterControlsForm({
       );
     }
 
+    if (field.type === "button") {
+      const startIcon =
+        field.startIcon === "favoriteBorder"
+          ? <FavoriteBorderRoundedIcon fontSize="small" />
+          : field.startIcon;
+
+      return (
+        <Button
+          key={field.id}
+          onClick={field.onClick}
+          startIcon={startIcon}
+          sx={field.sx}
+          variant={field.variant ?? "outlined"}
+        >
+          {field.label}
+        </Button>
+      );
+    }
+
     return (
       <FormControl key={field.id} size="small" sx={field.formControlSx}>
         <InputLabel id={field.labelId}>{field.label}</InputLabel>
@@ -94,6 +114,7 @@ FilterControlsForm.propTypes = {
       labelSx: PropTypes.object,
       labelVariant: PropTypes.string,
       onChange: PropTypes.func,
+      onClick: PropTypes.func,
       options: PropTypes.arrayOf(
         PropTypes.shape({
           label: PropTypes.node.isRequired,
@@ -104,7 +125,8 @@ FilterControlsForm.propTypes = {
       size: PropTypes.string,
       sx: PropTypes.object,
       text: PropTypes.node,
-      type: PropTypes.oneOf(["select", "switch", "divider", "text"]),
+      type: PropTypes.oneOf(["select", "switch", "divider", "text", "button"]),
+      startIcon: PropTypes.node,
       value: PropTypes.oneOfType([PropTypes.string, PropTypes.number, PropTypes.bool])
     })
   ).isRequired,

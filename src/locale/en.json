@@ -8,6 +8,7 @@
   "sortDesc": "High to Low",
   "allCategories": "All",
   "favorites": "Favorites",
+  "wishlistOnly": "Wishlist Only",
   "showFavoritesOnly": "Show favorites only",
   "addFavorite": "Add to favorites",
   "removeFavorite": "Remove from favorites",
@@ -23,5 +24,8 @@
   "imageUnavailable": "Image unavailable",
   "filters":"Filters",
   "expand":"Expand",
-  "collapse": "Collapse"
+  "collapse": "Collapse",
+  "darkMode": "Dark",
+  "lightMode": "Light",
+  "toggleTheme": "Toggle theme"
 }

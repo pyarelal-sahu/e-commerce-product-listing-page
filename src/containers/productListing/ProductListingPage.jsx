@@ -1,4 +1,9 @@
-import { Alert, Box, Container, Stack, Typography } from "@mui/material";
+import FavoriteBorderRoundedIcon from "@mui/icons-material/FavoriteBorderRounded";
+import FavoriteRoundedIcon from "@mui/icons-material/FavoriteRounded";
+import DarkModeRoundedIcon from "@mui/icons-material/DarkModeRounded";
+import LightModeRoundedIcon from "@mui/icons-material/LightModeRounded";
+import { Alert, AppBar, Box, Button, Container, Switch, Toolbar, Typography } from "@mui/material";
+import PropTypes from "prop-types";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 
@@ -14,9 +19,12 @@ import { LABELS } from "../../constants/labels";
 /**
  * Main product listing page.
  *
+ * @param {object} props Component props.
+ * @param {boolean} props.isDarkMode Whether dark mode is enabled.
+ * @param {function} props.onToggleTheme Callback for toggling theme mode.
  * @returns {JSX.Element} Rendered product listing experience.
  */
-function ProductListingPage() {
+function ProductListingPage({ isDarkMode, onToggleTheme }) {
   const { t } = useTranslation();
   const loadMoreTimeoutRef = useRef(null);
   const [isMobile, setIsMobile] = useState(() => {
@@ -87,37 +95,145 @@ function ProductListingPage() {
   }, [currentPage, handlePageChange, isLoadingMore, totalPages]);
 
   return (
-    <Box sx={{ pb: 6, pt: 4, minHeight: "100vh", bgcolor: "grey.50" }}>
-      <Container maxWidth="xl">
-        <Stack
-          spacing={1}
-          sx={{ 
-            mb: 3, 
-            textAlign: "center",
-            alignItems: "center"
-          }}
-        >
-          <Typography 
-            variant="h4"
-            sx={{ 
-              fontWeight: 800,
-              color: "text.primary",
-              letterSpacing: "-0.01em"
-            }}
-          >
-            {t(LABELS.PAGE_TITLE)}
-          </Typography>
-          <Typography color="text.secondary" variant="body2" sx={{ maxWidth: 500 }}>
-            {t(LABELS.PAGE_SUBTITLE)}
-          </Typography>
-        </Stack>
+    <Box sx={{ pb: 6, minHeight: "100vh", bgcolor: "background.default" }}>
+      <AppBar
+        position="sticky"
+        color="inherit"
+        elevation={0}
+        sx={{
+          top: 0,
+          borderBottom: "1px solid",
+          borderColor: "divider",
+          bgcolor: (theme) => (theme.palette.mode === "dark" ? "rgba(15, 23, 42, 0.9)" : "rgba(255,255,255,0.92)"),
+          backdropFilter: "blur(8px)"
+        }}
+      >
+        <Container maxWidth="xl">
+          <Toolbar disableGutters sx={{ minHeight: { xs: 56, sm: 60 } }}>
+            <Typography variant="h6" sx={{ fontWeight: 800, color: "text.primary", letterSpacing: "-0.01em" }}>
+              {t(LABELS.PAGE_TITLE)}
+            </Typography>
 
+            <Box sx={{ flexGrow: 1 }} />
+
+            <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+              <Box
+                sx={{
+                  display: "inline-flex",
+                  alignItems: "center",
+                  border: "1px solid",
+                  borderColor: "divider",
+                  borderRadius: 999,
+                  px: 0.45,
+                  py: 0.3,
+                  bgcolor: "background.paper"
+                }}
+              >
+
+                <Switch
+                  checked={isDarkMode}
+                  onChange={onToggleTheme}
+                  inputProps={{ "aria-label": t(LABELS.TOGGLE_THEME) }}
+                  size="small"
+                  icon={
+                    <Box
+                      sx={{
+                        width: 22,
+                        height: 22,
+                        borderRadius: "50%",
+                        display: "grid",
+                        placeItems: "center",
+                        bgcolor: "#ffffff"
+                      }}
+                    >
+                      <LightModeRoundedIcon sx={{ fontSize: 13, color: "warning.main" }} />
+                    </Box>
+                  }
+                  checkedIcon={
+                    <Box
+                      sx={{
+                        width: 22,
+                        height: 22,
+                        borderRadius: "50%",
+                        display: "grid",
+                        placeItems: "center",
+                        bgcolor: "#ffffff"
+                      }}
+                    >
+                      <DarkModeRoundedIcon sx={{ fontSize: 13, color: "primary.main" }} />
+                    </Box>
+                  }
+                  sx={{
+                    width: 54,
+                    height: 30,
+                    p: 0,
+                    mx: 0.1,
+                    "& .MuiSwitch-switchBase": {
+                      p: 0.45,
+                      transitionDuration: "260ms",
+                      "&.Mui-checked": {
+                        transform: "translateX(24px)",
+                        color: "inherit",
+                        "& + .MuiSwitch-track": {
+                          bgcolor: "primary.light",
+                          opacity: 1
+                        }
+                      },
+                      "&.Mui-focusVisible .MuiSwitch-thumb": {
+                        outline: "2px solid",
+                        outlineColor: "primary.light",
+                        outlineOffset: 2
+                      }
+                    },
+                    "& .MuiSwitch-track": {
+                      borderRadius: 999,
+                      bgcolor: "rgba(148, 163, 184, 0.55)",
+                      opacity: 1,
+                      transition: "background-color 240ms ease, opacity 240ms ease"
+                    }
+                  }}
+                />
+              </Box>
+
+              <Button
+                onClick={() => handleShowFavoritesChange(!showFavoritesOnly)}
+                startIcon={
+                  showFavoritesOnly ? (
+                    <FavoriteRoundedIcon fontSize="small" />
+                  ) : (
+                    <FavoriteBorderRoundedIcon fontSize="small" />
+                  )
+                }
+                sx={{
+                  borderRadius: 3,
+                  borderWidth: 1.5,
+                  borderColor: showFavoritesOnly ? "secondary.main" : "divider",
+                  color: showFavoritesOnly ? "secondary.main" : "text.secondary",
+                  backgroundColor: showFavoritesOnly ? "action.selected" : "background.paper",
+                  px: { xs: 1.25, sm: 1.75 },
+                  py: 0.6,
+                  fontWeight: 700,
+                  whiteSpace: "nowrap",
+                  textTransform: "none",
+                  "&:hover": {
+                    borderColor: showFavoritesOnly ? "secondary.main" : "text.light",
+                    backgroundColor: showFavoritesOnly ? "action.selected" : "action.hover"
+                  }
+                }}
+                variant="outlined"
+              >
+                {t(LABELS.WISHLIST_ONLY)} ({favorites.length})
+              </Button>
+            </Box>
+          </Toolbar>
+        </Container>
+      </AppBar>
+
+      <Container maxWidth="xl">
         <FilterSortBar
           categories={categories}
           categoryFilter={categoryFilter}
-          favoritesCount={favorites.length}
           onCategoryChange={handleCategoryChange}
-          onFavoritesOnlyChange={handleShowFavoritesChange}
           onRatingChange={handleRatingChange}
           onSortChange={handleSortChange}
           ratingFilter={ratingFilter}
@@ -192,5 +308,10 @@ function ProductListingPage() {
     </Box>
   );
 }
+
+ProductListingPage.propTypes = {
+  isDarkMode: PropTypes.bool.isRequired,
+  onToggleTheme: PropTypes.func.isRequired
+};
 
 export default ProductListingPage;

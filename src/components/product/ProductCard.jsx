@@ -128,7 +128,7 @@ function ProductCard({ animationIndex = 0, isFavorite, onToggleFavorite, product
             {product.category}
           </Typography>
           <Stack direction="row" spacing={0.5} sx={{ alignItems: "center" }}>
-            <StarRoundedIcon sx={{ color: "#fbbf24", fontSize: 16 }} />
+            <StarRoundedIcon sx={{ color: "warning.main", fontSize: 16 }} />
             <Typography variant="caption" fontWeight={700}>
               {product.rating.toFixed(1)}
             </Typography>

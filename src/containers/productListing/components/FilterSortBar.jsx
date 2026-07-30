@@ -15,9 +15,7 @@ import { buildFilterFields, buildMetaFields } from "./filterSortBar.config";
  * @param {object} props Component props.
  * @param {string[]} props.categories List of available product categories.
  * @param {string} props.categoryFilter Currently selected category filter.
- * @param {number} props.favoritesCount Count of favorite products.
  * @param {function} props.onCategoryChange Callback for category filter change.
- * @param {function} props.onFavoritesOnlyChange Callback for favorites-only toggle.
  * @param {function} props.onRatingChange Callback for rating filter change.
  * @param {function} props.onSortChange Callback for sort order change.
  * @param {number} props.ratingFilter Currently selected rating filter.
@@ -30,9 +28,7 @@ import { buildFilterFields, buildMetaFields } from "./filterSortBar.config";
 function FilterSortBar({
   categories,
   categoryFilter,
-  favoritesCount,
   onCategoryChange,
-  onFavoritesOnlyChange,
   onRatingChange,
   onSortChange,
   ratingFilter,
@@ -57,10 +53,7 @@ function FilterSortBar({
   });
 
   const metaFields = buildMetaFields({
-    favoritesCount,
-    onFavoritesOnlyChange,
     resultsCount,
-    showFavoritesOnly,
     t
   });
 
@@ -69,7 +62,7 @@ function FilterSortBar({
       elevation={0}
       sx={{
         position: "sticky",
-        top: { xs: 8, sm: 12 },
+        top: { xs: 64, sm: 72 },
         zIndex: (theme) => theme.zIndex.appBar - 1,
         overflow: "hidden",
         py: { xs: 1.5, sm: 2 },
@@ -158,9 +151,7 @@ function FilterSortBar({
 FilterSortBar.propTypes = {
   categories: PropTypes.arrayOf(PropTypes.string).isRequired,
   categoryFilter: PropTypes.string.isRequired,
-  favoritesCount: PropTypes.number.isRequired,
   onCategoryChange: PropTypes.func.isRequired,
-  onFavoritesOnlyChange: PropTypes.func.isRequired,
   onRatingChange: PropTypes.func.isRequired,
   onSortChange: PropTypes.func.isRequired,
   ratingFilter: PropTypes.number.isRequired,

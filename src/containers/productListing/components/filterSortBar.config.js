@@ -90,28 +90,10 @@ export function buildFilterFields({
  * @returns {Array<object>} Field configuration for meta controls.
  */
 export function buildMetaFields({
-  favoritesCount,
-  onFavoritesOnlyChange,
   resultsCount,
-  showFavoritesOnly,
   t
 }) {
   return [
-    {
-      checked: showFavoritesOnly,
-      formControlLabelSx: { m: 0 },
-      id: "favorites-only",
-      label: `${t(LABELS.FAVORITES)} (${favoritesCount})`,
-      labelSx: { fontWeight: 500, color: "text.secondary" },
-      onChange: onFavoritesOnlyChange,
-      type: "switch"
-    },
-    {
-      dividerProps: { orientation: "vertical", flexItem: true },
-      id: "meta-divider",
-      sx: { display: { xs: "none", sm: "block" }, height: 20, my: "auto" },
-      type: "divider"
-    },
     {
       id: "results-count",
       sx: { fontWeight: 700, color: "text.disabled", whiteSpace: "nowrap" },

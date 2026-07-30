@@ -12,6 +12,7 @@ export const LABELS = {
   SORT_DESC: "sortDesc",
   ALL_CATEGORIES: "allCategories",
   FAVORITES: "favorites",
+  WISHLIST_ONLY: "wishlistOnly",
   SHOW_FAVORITES_ONLY: "showFavoritesOnly",
   ADD_FAVORITE: "addFavorite",
   REMOVE_FAVORITE: "removeFavorite",
@@ -27,5 +28,8 @@ export const LABELS = {
   IMAGE_UNAVAILABLE: "imageUnavailable",
   FILTERS: "filters",
   EXPAND: "expand",
-  COLLAPSE: "collapse"
+  COLLAPSE: "collapse",
+  DARK_MODE: "darkMode",
+  LIGHT_MODE: "lightMode",
+  TOGGLE_THEME: "toggleTheme"
 };
