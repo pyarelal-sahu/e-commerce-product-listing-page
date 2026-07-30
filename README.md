@@ -1,67 +1,83 @@
 # E-Commerce Product Listing Page
 
-A high-performance, responsive e-commerce product listing page built with React, Vite, and Material UI. This project demonstrates advanced frontend patterns including infinite scrolling, pagination, staggered animations, and internationalization (i18n).
+A responsive e-commerce product listing experience built with React, Vite, and Material UI. The app focuses on a polished browsing flow with mobile infinite scroll, desktop pagination, animated cards, and a clean configurable filter bar.
 
-## 🚀 Features
+## Features
 
-- **Dynamic Product Grid**: Displays 200 items with staggered entry animations for a polished feel.
-- **Adaptive Layout**: 
-  - **Mobile**: Infinite scroll with `IntersectionObserver` for seamless browsing.
-  - **Desktop**: Clean pagination for structured navigation.
-- **Filtering & Sorting**: 
-  - Filter by Category and Minimum Rating (0-5 stars).
-  - Sort by Price (Low to High / High to Low).
-  - "Show Favorites Only" toggle.
-- **Persistent Favorites**: Save your favorite products; persistence is handled via Redux Toolkit and `localStorage`.
-- **Performance Optimized**: 
-  - Image lazy loading with MUI skeletons.
-  - Optimized re-renders using centralized labels and decentralized i18n logic.
-- **Refined UI/UX**: Built with Material UI (MUI) components and Tailwind CSS for utility styling.
+- **Responsive product grid** with adaptive layouts for mobile, tablet, and desktop.
+- **Mobile infinite scroll** with progressive loading, in-grid skeleton placeholders, and a loading spinner.
+- **Desktop pagination** with numbered navigation.
+- **Filtering and sorting** for category, minimum rating, and price order.
+- **Wishlist support** with favorite toggling and a persistent favorites count.
+- **Favorites-only view** from the top toolbar.
+- **Light/Dark theme toggle** in the app bar with animated switching.
+- **Sticky app header and filter bar** for quick access while scrolling.
+- **Lazy-loaded product images** with skeleton fallback and error state.
+- **Image fallback handling** that shows a visible placeholder message when a product image fails to load.
+- **Image loading progress feel** with smooth fade-in as images resolve.
+- **Product card animations** with subtle entry motion and hover polish.
+- **Localized labels** with i18next and centralized label constants.
+- **Redux Toolkit state management** for products, filters, pagination, and favorites.
+- **Soft MUI-themed UI** with theme tokens, custom paper shadows, and consistent spacing.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-- **Framework**: React 18 & Vite 4
-- **State Management**: Redux Toolkit (RTK)
-- **UI Components**: Material UI (MUI) v5
-- **Styling**: Tailwind CSS
-- **Animations**: CSS Motion Tokens & Framer-like transitions
-- **Localization**: i18next & react-i18next
+- **Framework**: React 19
+- **Build Tool**: Vite 8
+- **State Management**: Redux Toolkit
+- **UI Library**: Material UI 9
+- **Styling**: MUI `sx` system and app theme tokens
+- **Localization**: i18next and react-i18next
+- **Icons**: MUI icons
 
-## 📦 Getting Started
+## Getting Started
 
 ### Prerequisites
-- Node.js (v24.18.1 LTS recommended)
-- npm or yarn
 
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/pyarelal-sahu/e-commerce-product-listing-page.git
-   cd e-commerce-product-listing-page
-   ```
+- Node.js 25 or newer
+- npm
 
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
+### Install
 
-3. Start the development server:
-   ```bash
-   npm run dev
-   ```
+```bash
+npm install
+```
 
-### Building for Production
+### Run Locally
+
+```bash
+npm run dev
+```
+
+### Build for Production
+
 ```bash
 npm run build
 ```
 
-## 📂 Project Structure
+### Lint
 
-- `src/components/`: Reusable primitive components (ProductCard, LazyImage, etc.)
-- `src/containers/`: Page-level components and features (ProductListingPage)
-- `src/store/`: Redux slices and store configuration.
-- `src/constants/`: Centralized labels and storage keys.
-- `src/locale/`: JSON translation files.
-- `src/utilities/`: Animation tokens and helper functions.
+```bash
+npm run lint
+```
 
+### Preview Production Build
 
+```bash
+npm run preview
+```
+
+## Project Structure
+
+- `src/components/` - Reusable UI components such as product cards, skeletons, and lazy images.
+- `src/containers/` - Page-level features and product listing orchestration.
+- `src/RTK/` - Redux store and slices.
+- `src/constants/` - Shared label keys and storage keys.
+- `src/locale/` - Translation JSON files.
+- `src/utilities/` - Theme configuration and motion helpers.
+
+## Notes
+
+- Favorites are stored locally so they persist between reloads.
+- Mobile loading is optimized to avoid blank gaps while more products are fetched.
+- Theme colors and fallback states are driven by MUI theme tokens.
