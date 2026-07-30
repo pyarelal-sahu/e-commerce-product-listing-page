@@ -34,12 +34,17 @@ A responsive e-commerce product listing experience built with React, Vite, and M
 
 ### Prerequisites
 
-- Node.js 25 or newer
+- Node.js 24.18.1 or newer
 - npm
+
+Optional (recommended):
+
+- nvm (`nvm use` reads the included `.nvmrc`)
 
 ### Install
 
 ```bash
+nvm use
 npm install
 ```
 
