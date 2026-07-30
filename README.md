@@ -2,6 +2,10 @@
 
 A responsive e-commerce product listing experience built with React, Vite, and Material UI. The app focuses on a polished browsing flow with mobile infinite scroll, desktop pagination, animated cards, and a clean configurable filter bar.
 
+## Live Demo
+
+https://e-commerce-product-listing-page-x.netlify.app/
+
 ## Features
 
 - **Responsive product grid** with adaptive layouts for mobile, tablet, and desktop.
@@ -54,23 +58,7 @@ npm install
 npm run dev
 ```
 
-### Build for Production
 
-```bash
-npm run build
-```
-
-### Lint
-
-```bash
-npm run lint
-```
-
-### Preview Production Build
-
-```bash
-npm run preview
-```
 
 ## Project Structure
 
